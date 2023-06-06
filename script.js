@@ -7,7 +7,7 @@ function volume_sphere() {
     }
     let volume = document.getElementById('volume');
     if (ans != undefined) {
-        volume.value = ans;
+        volume.value = ans.toFixed(4);
     }
     return false;
 }
