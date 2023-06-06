@@ -9,6 +9,7 @@ function volume_sphere() {
     if (ans != undefined) {
         volume.value = ans;
     }
+    return false;
 }
 
 window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
